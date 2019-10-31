@@ -1,0 +1,44 @@
+.team{
+    min-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+.team_title{
+    font-size: 30px;
+    flex-wrap: 800;
+    color:#000;
+}
+.team_title::first-letter{
+    color: #00f0f0;
+    font-size:45px
+}
+.team_title::first-letter:hover{
+    color:red;
+    font-size:25px;
+}
+.team_title:hover{
+    font-size:45px;
+    color: #00f0f0;
+}
+.team_title::before{
+   content:'';
+   width:20px;
+   height:3px;
+   background-color:aqua;
+   display:inline-block;
+}
+.team_title::after{
+    content:'';
+    width:20px;
+    height:3px;
+    background-color:aqua;
+    display:inline-block;
+ }
+.team_text{
+    color:#000;
+    font-size:16px;
+}
+.team_text::first-line{
+    color:red;
+    font-size:25px;
+}
