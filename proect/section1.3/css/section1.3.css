@@ -1,0 +1,39 @@
+
+.section1 {
+    font-family: 'Oswald', sans-serif; 
+    text-align:right top;
+    margin: auto;
+    
+    
+}
+
+.section1_title {
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 5.5px;
+    padding-left: 1020px;
+    padding-right: 278px;
+    margin-bottom: 10px;
+}
+.section1_title_orange {
+    color: #eebf3e;
+}
+
+.section1_wrapper {
+    background-image: url(../img/section1_bg_1920.png);
+    height: 683px;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.section1_photo1 {
+    position: absolute;
+    top: 102px;
+    right: 1090px;
+}
+
+.section1_photo2 {
+    position: absolute;
+    top: 227px;
+    left: 245px;
+}
